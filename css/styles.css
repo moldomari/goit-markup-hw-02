@@ -20,9 +20,9 @@
   color: #f4f4fd;
 }
 
-.link {
-  color: #4d5ae5;
+.logo {
   font-family: var(--logo-font-family);
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -31,11 +31,12 @@
   text-decoration: none;
 }
 
-.studio {
+.spann {
   color: #2e2f42;
 }
 
 .button-service {
+  font-family: var(--text-font-family);
   background-color: #4d5ae5;
   color: #ffffff;
   border-color: rgba(0, 0, 0, 0);
@@ -43,6 +44,16 @@
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.64px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-service:hover {
+  color: var(--OCEAN);
+}
+
+.button-service:focus {
+  color: var(--OCEAN);
 }
 
 .nav-link {
@@ -73,15 +84,9 @@
 .adress {
   color: var(--SLATE);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
-}
-
-.button-service:hover,
-.button-service:focus {
-  color: var(--OCEAN);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .psubtitle {
@@ -105,7 +110,7 @@
   font-size: 56px;
   font-weight: 700;
   line-height: 107.143%;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
 
 .subtitle {
@@ -142,7 +147,22 @@
 }
 
 .footer {
+  font-family: var(--logo-font-family);
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   background-color: #2e2f42;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.span {
+  color: #f4f4fd;
 }
 
 .section-title {
@@ -162,8 +182,9 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .button-services {
@@ -178,12 +199,24 @@
 }
 
 .buttons {
+  font-family: var(--text-font-family);
   color: var(--IRIS);
   background-color: #e7e9fc;
   border-color: rgba(0, 0, 0, 0);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--CLOUD);
+  cursor: pointer;
+}
+
+.buttons:hover {
+  color: var(--WHITE);
+  background-color: var(--OCEAN);
+}
+
+.buttons:focus {
+  color: var(--WHITE);
+  background-color: var(--OCEAN);
 }
