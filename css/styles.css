@@ -13,7 +13,7 @@
 .body {
   font-family: var(--text-font-family);
   color: var(--IRIS);
-  background-color: #ffffffff;
+  background-color: var(--WHITE);
 }
 
 .color3 {
