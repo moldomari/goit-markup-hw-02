@@ -35,7 +35,7 @@
   color: #2e2f42;
 }
 
-.button-servicee {
+.button-service {
   font-family: var(--text-font-family);
   background-color: #4d5ae5;
   color: #ffffff;
@@ -48,11 +48,11 @@
   cursor: pointer;
 }
 
-.button-servicee:hover {
+.button-service:hover {
   color: var(--OCEAN);
 }
 
-.button-servicee:focus {
+.button-service:focus {
   color: var(--OCEAN);
 }
 
@@ -187,7 +187,7 @@
   text-decoration: none;
 }
 
-.button-servicess {
+.button-services {
   background-color: #4d5ae5;
   color: #ffffff;
   border-color: rgba(0, 0, 0, 0);
