@@ -77,7 +77,7 @@
   color: var(--OCEAN);
 }
 
-.nav-link {
+.nav-link link {
   color: var(--NAVY-BLUE);
   font-size: 16px;
   font-style: normal;
