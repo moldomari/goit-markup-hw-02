@@ -21,10 +21,6 @@
   color: var(--SLATE);
 }
 
-.list {
-  list-style: none;
-}
-
 .color3 {
   color: #f4f4fd;
 }
@@ -65,14 +61,6 @@
   color: var(--OCEAN);
 }
 
-.nav-link {
-  color: var(--NAVY-BLUE);
-}
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--OCEAN);
-}
-
 .adress {
   color: var(--NAVY-BLUE);
 }
@@ -90,12 +78,21 @@
   text-decoration: none;
 }
 
-.adress {
+.nav-link {
+  color: var(--NAVY-BLUE);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--OCEAN);
+}
+
+.adress-list {
   color: var(--SLATE);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .psubtitle {
@@ -152,7 +149,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
 }
 
 .footer {
