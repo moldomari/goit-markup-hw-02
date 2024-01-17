@@ -164,6 +164,7 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
   background-color: var(--NAVY-BLUE);
+  text-decoration: none;
 }
 
 .link {
