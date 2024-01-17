@@ -21,6 +21,10 @@
   color: var(--SLATE);
 }
 
+.list {
+  list-style: none;
+}
+
 .color3 {
   color: #f4f4fd;
 }
@@ -80,10 +84,10 @@
 .nav-link link {
   color: var(--NAVY-BLUE);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .adress {
@@ -107,7 +111,7 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 .title {
@@ -159,7 +163,7 @@
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  background-color: #2e2f42;
+  background-color: var(--NAVY-BLUE);
 }
 
 .link {
