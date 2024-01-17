@@ -12,8 +12,13 @@
 
 .body {
   font-family: var(--text-font-family);
-  color: var(--IRIS);
+  color: var(--SLATE);
   background-color: var(--WHITE);
+}
+
+.bodyy {
+  font-family: var(--text-font-family);
+  color: var(--SLATE);
 }
 
 .color3 {
@@ -148,16 +153,17 @@
 
 .footer {
   font-family: var(--logo-font-family);
-  color: #4d5ae5;
+  color: var(--IRIS);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   background-color: #2e2f42;
 }
 
 .link {
+  color: var(--IRIS);
   text-decoration: none;
 }
 
