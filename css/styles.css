@@ -41,6 +41,10 @@
   list-style: none;
 }
 
+.list {
+  text-decoration: none;
+}
+
 .span {
   color: #2e2f42;
 }
