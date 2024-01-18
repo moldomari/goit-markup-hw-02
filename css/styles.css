@@ -25,7 +25,7 @@
   color: #f4f4fd;
 }
 
-.logo {
+.logo-link {
   font-family: var(--logo-font-family);
   color: #4d5ae5;
   font-size: 18px;
@@ -34,6 +34,10 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.nav-list {
+  list-style: none;
 }
 
 .span {
