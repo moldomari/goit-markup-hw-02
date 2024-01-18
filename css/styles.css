@@ -237,3 +237,7 @@
   color: var(--WHITE);
   background-color: var(--OCEAN);
 }
+
+.section-list {
+  list-style: none;
+}
