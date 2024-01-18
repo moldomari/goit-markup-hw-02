@@ -36,7 +36,7 @@
   text-decoration: none;
 }
 
-.nav-list {
+.nav {
   list-style: none;
 }
 
@@ -90,7 +90,11 @@
   color: var(--OCEAN);
 }
 
-.adress-list {
+.adres {
+  font-style: normal;
+}
+
+.adress {
   color: var(--SLATE);
   font-size: 16px;
   font-weight: 400;
