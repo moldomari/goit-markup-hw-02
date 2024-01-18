@@ -41,8 +41,16 @@
   list-style: none;
 }
 
+.span {
+  color: #2e2f42;
+}
+
 .section-one {
   background-color: var(--NAVY-BLUE);
+}
+
+.sectionn-one {
+  list-style: none;
 }
 
 .button-service {
