@@ -60,7 +60,7 @@
 
 .button-service:hover,
 .button-service:focus {
-  color: var(--OCEAN);
+  background-color: var(--OCEAN);
 }
 
 .adress {
