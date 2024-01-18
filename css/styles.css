@@ -57,16 +57,14 @@
   cursor: pointer;
 }
 
-.button-service:hover {
-  color: var(--OCEAN);
-}
-
+.button-service:hover,
 .button-service:focus {
-  color: var(--OCEAN);
+  background-color: var(--OCEAN);
 }
 
 .adress {
   color: var(--NAVY-BLUE);
+  text-decoration: none;
 }
 .adress:hover,
 .adress:focus {
@@ -82,9 +80,6 @@
   text-decoration: none;
 }
 
-.nav-link {
-  color: var(--NAVY-BLUE);
-}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--OCEAN);
@@ -110,12 +105,23 @@
   letter-spacing: 0.4px;
 }
 
+.section {
+  color: var(--SLATE);
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .name {
   color: var(--NAVY-BLUE);
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 
 .title {
@@ -124,31 +130,18 @@
   font-weight: 700;
   line-height: 107.143%;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .subtitle {
   color: var(--NAVY-BLUE);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-
-.section1 {
-  color: var(--SLATE);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.section2 {
-  color: var(--SLATE);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0, 02em;
+  text-align: center;
+  background-color: var(--CLOUD);
 }
 
 .pfooter {
