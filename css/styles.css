@@ -25,7 +25,7 @@
   color: #f4f4fd;
 }
 
-.logo-link {
+.logo link {
   font-family: var(--logo-font-family);
   color: #4d5ae5;
   font-size: 18px;
@@ -73,7 +73,7 @@
   color: var(--OCEAN);
 }
 
-.nav-link {
+.nav-link link {
   color: var(--NAVY-BLUE);
   font-size: 16px;
   font-weight: 500;
@@ -82,11 +82,11 @@
   text-decoration: none;
 }
 
-.nav-link {
+.nav-link link {
   color: var(--NAVY-BLUE);
 }
-.nav-link:hover,
-.nav-link:focus {
+.nav-link link:hover,
+.nav-link link:focus {
   color: var(--OCEAN);
 }
 
