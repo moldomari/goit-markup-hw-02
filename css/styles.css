@@ -37,6 +37,7 @@
 }
 
 .nav-list {
+  color: var(--NAVY-BLUE);
   list-style: none;
 }
 
@@ -115,13 +116,13 @@
   letter-spacing: 0.02em;
 }
 
-.name {
+.name-title {
   color: var(--NAVY-BLUE);
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.02em;
-  background-color: #ffffff;
+  background-color: #ffffffff;
 }
 
 .title {
@@ -131,6 +132,10 @@
   line-height: 107.143%;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.section-four {
+  background-color: var(--CLOUD);
 }
 
 .subtitle {
@@ -177,10 +182,6 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.section-title {
-  background-color: #2e2f42;
 }
 
 .timage {
