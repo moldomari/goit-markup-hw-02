@@ -118,13 +118,13 @@
   letter-spacing: 0.02em;
 }
 
-.name-title {
+.name-person {
   color: var(--NAVY-BLUE);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  background-color: var(--WHITE);
+  background-color: var(--WHITE, #fff);
 }
 
 .title {
