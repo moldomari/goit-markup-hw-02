@@ -10,12 +10,6 @@
   --logo-font-family: "Raleway", sans-serif;
 }
 
-.list {
-  font-family: var(--text-font-family);
-  color: var(--SLATE);
-  background-color: var(--WHITE);
-}
-
 .bodyy {
   font-family: var(--text-font-family);
   color: var(--SLATE);
@@ -34,11 +28,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-}
-
-.nav-list {
-  color: var(--NAVY-BLUE);
-  list-style: none;
 }
 
 .list {
@@ -100,6 +89,10 @@
   color: var(--OCEAN);
 }
 
+.font-address {
+  font-style: normal;
+}
+
 .address {
   font-style: normal;
 }
@@ -134,9 +127,9 @@
   color: var(--NAVY-BLUE);
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  background-color: #ffffffff;
+  background-color: var(--WHITE);
 }
 
 .title {
