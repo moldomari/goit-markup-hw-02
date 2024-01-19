@@ -13,6 +13,7 @@
 .bodyy {
   font-family: var(--text-font-family);
   color: var(--SLATE);
+  background-color: var(--WHITE);
 }
 
 .color3 {
