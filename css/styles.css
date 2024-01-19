@@ -72,6 +72,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  font-family: var(--NAVY-BLUE);
 }
 
 .nav-link:hover,
@@ -91,6 +92,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
+  font-family: var(--SLATE);
 }
 
 .adress:hover,
