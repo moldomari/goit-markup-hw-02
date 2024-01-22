@@ -220,8 +220,8 @@
 
 .button-services {
   font-family: var(--text-font-family);
-  background-color: var(--CLOUD);
-  color: #ffffff;
+  background-color: var(--OCEAN);
+  color: var(--WHITE);
   border-color: rgba(0, 0, 0, 0);
   font-size: 16px;
   font-weight: 500;
@@ -232,14 +232,14 @@
 
 .button-services:hover,
 .button-services:focus {
-  color: var(--CLOUD);
-  background-color: var(--CLOUD);
+  color: var(--WHITE);
+  background-color: var(--WHITE);
 }
 
 .buttons {
   font-family: var(--text-font-family);
   color: var(--IRIS);
-  background-color: #e7e9fc;
+  background-color: var(--IRIS);
   border-color: rgba(0, 0, 0, 0);
   font-size: 16px;
   font-weight: 500;
@@ -251,7 +251,7 @@
 
 .buttons:hover,
 .buttons:focus {
-  color: var(--WHITE);
+  color: var(--OCEAN);
   background-color: var(--OCEAN);
 }
 
