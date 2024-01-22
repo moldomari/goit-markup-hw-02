@@ -204,6 +204,7 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE);
 }
 
 .subtimage {
@@ -214,16 +215,25 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .button-services {
-  background-color: #4d5ae5;
+  font-family: var(--text-font-family);
+  background-color: var(--CLOUD);
   color: #ffffff;
   border-color: rgba(0, 0, 0, 0);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button-services:hover,
+.button-services:focus {
+  color: var(--CLOUD);
+  background-color: var(--CLOUD);
 }
 
 .buttons {
@@ -239,16 +249,16 @@
   cursor: pointer;
 }
 
-.buttons:hover {
-  color: var(--WHITE);
-  background-color: var(--OCEAN);
-}
-
+.buttons:hover,
 .buttons:focus {
   color: var(--WHITE);
   background-color: var(--OCEAN);
 }
 
 .section-list {
+  list-style: none;
+}
+
+.lista {
   list-style: none;
 }
