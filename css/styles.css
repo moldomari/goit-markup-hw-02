@@ -163,6 +163,10 @@
   background-color: var(--CLOUD);
 }
 
+.images-index {
+  background-color: var(--WHITE);
+}
+
 .pfooter {
   color: var(--CLOUD);
   font-size: 16px;
@@ -239,7 +243,6 @@
 .buttons {
   font-family: var(--text-font-family);
   color: var(--IRIS);
-  background-color: var(--IRIS);
   border-color: rgba(0, 0, 0, 0);
   font-size: 16px;
   font-weight: 500;
@@ -259,6 +262,6 @@
   list-style: none;
 }
 
-.lista {
-  list-style: none;
+.images {
+  background-color: var(--WHITE);
 }
