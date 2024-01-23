@@ -222,24 +222,6 @@
   cursor: pointer;
 }
 
-.button-services {
-  font-family: var(--text-font-family);
-  background-color: var(--OCEAN);
-  color: var(--WHITE);
-  border-color: rgba(0, 0, 0, 0);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-
-.button-services:hover,
-.button-services:focus {
-  color: var(--WHITE);
-  background-color: var(--WHITE);
-}
-
 .buttons {
   font-family: var(--text-font-family);
   color: var(--IRIS);
@@ -256,6 +238,9 @@
 .buttons:focus {
   color: var(--OCEAN);
   background-color: var(--OCEAN);
+}
+
+.button-services {
 }
 
 .section-list {
