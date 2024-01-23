@@ -86,6 +86,7 @@
 
 .adress {
   color: var(--SLATE);
+  background-color: var(--SLATE);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -246,10 +247,6 @@
 .buttons:focus {
   color: var(--WHITE);
   background-color: var(--OCEAN);
-}
-
-.buttons link {
-  color: var(--NAVY-BLUE);
 }
 
 .section-list {
