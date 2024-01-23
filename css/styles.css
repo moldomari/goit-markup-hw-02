@@ -240,8 +240,8 @@
   background-color: var(--OCEAN);
 }
 
-.button-services:hover,
-.button-services:focus {
+.button-one:hover,
+.button-one:focus {
   color: var(--WHITE);
 }
 
