@@ -86,14 +86,13 @@
 
 .adress {
   color: var(--SLATE);
-  background-color: var(--SLATE);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
-  font-family: var(--SLATE);
+  font-family: var(--text-font-family);
 }
 
 .adress:hover,
