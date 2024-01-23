@@ -85,10 +85,6 @@
   text-decoration: none;
 }
 
-.linkk {
-  color: var(--NAVY-BLUE);
-}
-
 .font-address {
   font-style: normal;
 }
@@ -255,6 +251,11 @@
 .buttons:focus {
   color: var(--WHITE);
   background-color: var(--OCEAN);
+}
+
+.button-one {
+  background-color: var(--OCEAN);
+  color: var(--WHITE);
 }
 
 .section-list {
