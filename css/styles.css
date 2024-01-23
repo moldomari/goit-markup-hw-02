@@ -100,6 +100,10 @@
   color: var(--OCEAN);
 }
 
+.adress {
+  color: var(--SLATE);
+}
+
 .psubtitle {
   color: var(--NAVY-BLUE);
   font-size: 20px;
