@@ -80,9 +80,8 @@
   text-decoration: none;
 }
 
-.nav-link {
+.linkk {
   color: var(--NAVY-BLUE);
-  text-decoration: none;
 }
 
 .font-address {
@@ -251,11 +250,6 @@
 .buttons:focus {
   color: var(--WHITE);
   background-color: var(--OCEAN);
-}
-
-.buttonn {
-  background-color: var(--OCEAN);
-  color: var(--WHITE);
 }
 
 .section-list {
