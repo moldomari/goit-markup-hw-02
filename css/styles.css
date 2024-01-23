@@ -85,13 +85,16 @@
 }
 
 .adress {
-  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
+}
+
+.adress {
+  color: #434455;
 }
 
 .adress:hover,
@@ -166,8 +169,8 @@
   background-color: var(--CLOUD);
 }
 
-.images-index {
-  background-color: var(--WHITE);
+.images-section {
+  background-color: #ffffff;
 }
 
 .pfooter {
