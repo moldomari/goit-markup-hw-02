@@ -240,7 +240,9 @@
   background-color: var(--OCEAN);
 }
 
-.button-services {
+.button-services:hover,
+.button-services:focus {
+  color: var(--WHITE);
 }
 
 .section-list {
