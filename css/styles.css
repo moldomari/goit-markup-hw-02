@@ -5,7 +5,7 @@
   --NAVY-BLUE: #2e2f42;
   --OCEAN: #404bbf;
   --CORNFLOWER: #e7e9fc;
-  --WHITE: #fff;
+  --WHITE: #ffffff;
   --text-font-family: "Roboto", sans-serif;
   --logo-font-family: "Raleway", sans-serif;
 }
@@ -78,6 +78,12 @@
 .nav-link:hover,
 .nav-link:focus {
   color: var(--OCEAN);
+  text-decoration: none;
+}
+
+.nav-link {
+  color: var(--NAVY-BLUE);
+  text-decoration: none;
 }
 
 .font-address {
@@ -200,6 +206,14 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.titleimage {
+  color: var(--WHITE);
+}
+.titleimage:hover,
+.titleimage:focus {
+  color: var(--WHITE);
 }
 
 .timage {
